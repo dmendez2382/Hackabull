@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D052EE82246D2F1006D40A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D052EE72246D2F1006D40A3 /* AppDelegate.swift */; };
+		4D052EED2246D2F1006D40A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D052EEB2246D2F1006D40A3 /* Main.storyboard */; };
+		4D052EEF2246D2F2006D40A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D052EEE2246D2F2006D40A3 /* Assets.xcassets */; };
+		4D052EF22246D2F2006D40A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D052EF02246D2F2006D40A3 /* LaunchScreen.storyboard */; };
+		4D052EFD2246D2F2006D40A3 /* BeepBeepApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D052EFC2246D2F2006D40A3 /* BeepBeepApplicationTests.swift */; };
+		4D052F082246D2F2006D40A3 /* BeepBeepApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D052F072246D2F2006D40A3 /* BeepBeepApplicationUITests.swift */; };
+		4D5DAAAB2247B565000DE30A /* LetsCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5DAAAA2247B565000DE30A /* LetsCodeViewController.swift */; };
+		4D5DAAAD2247B58D000DE30A /* LevelOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5DAAAC2247B58D000DE30A /* LevelOneViewController.swift */; };
+		4D5DAAAF2247CBDC000DE30A /* OutputLevelOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5DAAAE2247CBDC000DE30A /* OutputLevelOneViewController.swift */; };
+		4DB7A55622474BEF00768FDD /* TutorialRobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7A55522474BEF00768FDD /* TutorialRobotViewController.swift */; };
+		4DB7A55822474CEC00768FDD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7A55722474CEC00768FDD /* WelcomeViewController.swift */; };
+		4DB7A55A22474D5400768FDD /* RobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7A55922474D5400768FDD /* RobotViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D052EF92246D2F2006D40A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D052EDC2246D2F1006D40A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D052EE32246D2F1006D40A3;
+			remoteInfo = BeepBeepApplication;
+		};
+		4D052F042246D2F2006D40A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D052EDC2246D2F1006D40A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D052EE32246D2F1006D40A3;
+			remoteInfo = BeepBeepApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D052EE42246D2F1006D40A3 /* BeepBeepApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeepBeepApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D052EE72246D2F1006D40A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D052EEC2246D2F1006D40A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D052EEE2246D2F2006D40A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D052EF12246D2F2006D40A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D052EF32246D2F2006D40A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D052EF82246D2F2006D40A3 /* BeepBeepApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeepBeepApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D052EFC2246D2F2006D40A3 /* BeepBeepApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepBeepApplicationTests.swift; sourceTree = "<group>"; };
+		4D052EFE2246D2F2006D40A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D052F032246D2F2006D40A3 /* BeepBeepApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeepBeepApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D052F072246D2F2006D40A3 /* BeepBeepApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepBeepApplicationUITests.swift; sourceTree = "<group>"; };
+		4D052F092246D2F2006D40A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5DAAAA2247B565000DE30A /* LetsCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsCodeViewController.swift; sourceTree = "<group>"; };
+		4D5DAAAC2247B58D000DE30A /* LevelOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneViewController.swift; sourceTree = "<group>"; };
+		4D5DAAAE2247CBDC000DE30A /* OutputLevelOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputLevelOneViewController.swift; sourceTree = "<group>"; };
+		4DB7A55522474BEF00768FDD /* TutorialRobotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialRobotViewController.swift; sourceTree = "<group>"; };
+		4DB7A55722474CEC00768FDD /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4DB7A55922474D5400768FDD /* RobotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D052EE12246D2F1006D40A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D052EF52246D2F2006D40A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D052F002246D2F2006D40A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D052EDB2246D2F1006D40A3 = {
+			isa = PBXGroup;
+			children = (
+				4D052EE62246D2F1006D40A3 /* BeepBeepApplication */,
+				4D052EFB2246D2F2006D40A3 /* BeepBeepApplicationTests */,
+				4D052F062246D2F2006D40A3 /* BeepBeepApplicationUITests */,
+				4D052EE52246D2F1006D40A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D052EE52246D2F1006D40A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D052EE42246D2F1006D40A3 /* BeepBeepApplication.app */,
+				4D052EF82246D2F2006D40A3 /* BeepBeepApplicationTests.xctest */,
+				4D052F032246D2F2006D40A3 /* BeepBeepApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D052EE62246D2F1006D40A3 /* BeepBeepApplication */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7A554224749FD00768FDD /* View Controllers */,
+				4D052EE72246D2F1006D40A3 /* AppDelegate.swift */,
+				4D052EEB2246D2F1006D40A3 /* Main.storyboard */,
+				4D052EEE2246D2F2006D40A3 /* Assets.xcassets */,
+				4D052EF02246D2F2006D40A3 /* LaunchScreen.storyboard */,
+				4D052EF32246D2F2006D40A3 /* Info.plist */,
+			);
+			path = BeepBeepApplication;
+			sourceTree = "<group>";
+		};
+		4D052EFB2246D2F2006D40A3 /* BeepBeepApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D052EFC2246D2F2006D40A3 /* BeepBeepApplicationTests.swift */,
+				4D052EFE2246D2F2006D40A3 /* Info.plist */,
+			);
+			path = BeepBeepApplicationTests;
+			sourceTree = "<group>";
+		};
+		4D052F062246D2F2006D40A3 /* BeepBeepApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D052F072246D2F2006D40A3 /* BeepBeepApplicationUITests.swift */,
+				4D052F092246D2F2006D40A3 /* Info.plist */,
+			);
+			path = BeepBeepApplicationUITests;
+			sourceTree = "<group>";
+		};
+		4DB7A554224749FD00768FDD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7A55522474BEF00768FDD /* TutorialRobotViewController.swift */,
+				4DB7A55722474CEC00768FDD /* WelcomeViewController.swift */,
+				4DB7A55922474D5400768FDD /* RobotViewController.swift */,
+				4D5DAAAA2247B565000DE30A /* LetsCodeViewController.swift */,
+				4D5DAAAC2247B58D000DE30A /* LevelOneViewController.swift */,
+				4D5DAAAE2247CBDC000DE30A /* OutputLevelOneViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D052EE32246D2F1006D40A3 /* BeepBeepApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D052F0C2246D2F2006D40A3 /* Build configuration list for PBXNativeTarget "BeepBeepApplication" */;
+			buildPhases = (
+				4D052EE02246D2F1006D40A3 /* Sources */,
+				4D052EE12246D2F1006D40A3 /* Frameworks */,
+				4D052EE22246D2F1006D40A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeepBeepApplication;
+			productName = BeepBeepApplication;
+			productReference = 4D052EE42246D2F1006D40A3 /* BeepBeepApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D052EF72246D2F2006D40A3 /* BeepBeepApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D052F0F2246D2F2006D40A3 /* Build configuration list for PBXNativeTarget "BeepBeepApplicationTests" */;
+			buildPhases = (
+				4D052EF42246D2F2006D40A3 /* Sources */,
+				4D052EF52246D2F2006D40A3 /* Frameworks */,
+				4D052EF62246D2F2006D40A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D052EFA2246D2F2006D40A3 /* PBXTargetDependency */,
+			);
+			name = BeepBeepApplicationTests;
+			productName = BeepBeepApplicationTests;
+			productReference = 4D052EF82246D2F2006D40A3 /* BeepBeepApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D052F022246D2F2006D40A3 /* BeepBeepApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D052F122246D2F2006D40A3 /* Build configuration list for PBXNativeTarget "BeepBeepApplicationUITests" */;
+			buildPhases = (
+				4D052EFF2246D2F2006D40A3 /* Sources */,
+				4D052F002246D2F2006D40A3 /* Frameworks */,
+				4D052F012246D2F2006D40A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D052F052246D2F2006D40A3 /* PBXTargetDependency */,
+			);
+			name = BeepBeepApplicationUITests;
+			productName = BeepBeepApplicationUITests;
+			productReference = 4D052F032246D2F2006D40A3 /* BeepBeepApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D052EDC2246D2F1006D40A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daniele Mendez";
+				TargetAttributes = {
+					4D052EE32246D2F1006D40A3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4D052EF72246D2F2006D40A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4D052EE32246D2F1006D40A3;
+					};
+					4D052F022246D2F2006D40A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4D052EE32246D2F1006D40A3;
+					};
+				};
+			};
+			buildConfigurationList = 4D052EDF2246D2F1006D40A3 /* Build configuration list for PBXProject "BeepBeepApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D052EDB2246D2F1006D40A3;
+			productRefGroup = 4D052EE52246D2F1006D40A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D052EE32246D2F1006D40A3 /* BeepBeepApplication */,
+				4D052EF72246D2F2006D40A3 /* BeepBeepApplicationTests */,
+				4D052F022246D2F2006D40A3 /* BeepBeepApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D052EE22246D2F1006D40A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D052EF22246D2F2006D40A3 /* LaunchScreen.storyboard in Resources */,
+				4D052EEF2246D2F2006D40A3 /* Assets.xcassets in Resources */,
+				4D052EED2246D2F1006D40A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D052EF62246D2F2006D40A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D052F012246D2F2006D40A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D052EE02246D2F1006D40A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5DAAAB2247B565000DE30A /* LetsCodeViewController.swift in Sources */,
+				4DB7A55822474CEC00768FDD /* WelcomeViewController.swift in Sources */,
+				4D5DAAAD2247B58D000DE30A /* LevelOneViewController.swift in Sources */,
+				4D5DAAAF2247CBDC000DE30A /* OutputLevelOneViewController.swift in Sources */,
+				4DB7A55A22474D5400768FDD /* RobotViewController.swift in Sources */,
+				4DB7A55622474BEF00768FDD /* TutorialRobotViewController.swift in Sources */,
+				4D052EE82246D2F1006D40A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D052EF42246D2F2006D40A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D052EFD2246D2F2006D40A3 /* BeepBeepApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D052EFF2246D2F2006D40A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D052F082246D2F2006D40A3 /* BeepBeepApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D052EFA2246D2F2006D40A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D052EE32246D2F1006D40A3 /* BeepBeepApplication */;
+			targetProxy = 4D052EF92246D2F2006D40A3 /* PBXContainerItemProxy */;
+		};
+		4D052F052246D2F2006D40A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D052EE32246D2F1006D40A3 /* BeepBeepApplication */;
+			targetProxy = 4D052F042246D2F2006D40A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D052EEB2246D2F1006D40A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D052EEC2246D2F1006D40A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D052EF02246D2F2006D40A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D052EF12246D2F2006D40A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D052F0A2246D2F2006D40A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D052F0B2246D2F2006D40A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D052F0D2246D2F2006D40A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKTNS8XL9;
+				INFOPLIST_FILE = BeepBeepApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hackabull.BeepBeepApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D052F0E2246D2F2006D40A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKTNS8XL9;
+				INFOPLIST_FILE = BeepBeepApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hackabull.BeepBeepApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D052F102246D2F2006D40A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKTNS8XL9;
+				INFOPLIST_FILE = BeepBeepApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hackabull.BeepBeepApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeepBeepApplication.app/BeepBeepApplication";
+			};
+			name = Debug;
+		};
+		4D052F112246D2F2006D40A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKTNS8XL9;
+				INFOPLIST_FILE = BeepBeepApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hackabull.BeepBeepApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeepBeepApplication.app/BeepBeepApplication";
+			};
+			name = Release;
+		};
+		4D052F132246D2F2006D40A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKTNS8XL9;
+				INFOPLIST_FILE = BeepBeepApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hackabull.BeepBeepApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeepBeepApplication;
+			};
+			name = Debug;
+		};
+		4D052F142246D2F2006D40A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJKTNS8XL9;
+				INFOPLIST_FILE = BeepBeepApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hackabull.BeepBeepApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeepBeepApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D052EDF2246D2F1006D40A3 /* Build configuration list for PBXProject "BeepBeepApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D052F0A2246D2F2006D40A3 /* Debug */,
+				4D052F0B2246D2F2006D40A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D052F0C2246D2F2006D40A3 /* Build configuration list for PBXNativeTarget "BeepBeepApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D052F0D2246D2F2006D40A3 /* Debug */,
+				4D052F0E2246D2F2006D40A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D052F0F2246D2F2006D40A3 /* Build configuration list for PBXNativeTarget "BeepBeepApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D052F102246D2F2006D40A3 /* Debug */,
+				4D052F112246D2F2006D40A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D052F122246D2F2006D40A3 /* Build configuration list for PBXNativeTarget "BeepBeepApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D052F132246D2F2006D40A3 /* Debug */,
+				4D052F142246D2F2006D40A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D052EDC2246D2F1006D40A3 /* Project object */;
+}
